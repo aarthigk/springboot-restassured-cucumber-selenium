@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YourSuite">
+    <listeners>
+        <listener class-name="com.example.demo.reporting.TestReportListener"/>
+    </listeners>
+
+    <test name="CucumberTests">
+        <classes>
+            <!-- Specify your Cucumber runner class here -->
+            <class name="com.example.demo.PetstoreAndSearchTest"/>
+        </classes>
+    </test>
+</suite>
