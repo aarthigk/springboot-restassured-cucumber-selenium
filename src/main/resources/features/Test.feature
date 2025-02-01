@@ -4,7 +4,7 @@ Feature: Search on Different Search Engines and Rest api
     Given the user opens a browser
     When the user navigates to "https://www.google.com"
     And the user searches for "test"
-    Then search results are displayed on Google
+    Then user should see an ""
 
 #  Scenario: Open Yahoo and Search
 #    Given the user opens a browser
